@@ -24,10 +24,10 @@ jobs:
       - name: Add label
         run: gh pr edit ${{ github.event.pull_request.number }} --add-label automerge
         env:
-          GH_TOKEN: ${{ secrets.APPROVE_PR_GITHUB_TOKEN }}
+          GH_TOKEN: ${{ github.token }}
       - uses: pascalgn/automerge-action@v0.16.2
         env:
-          GITHUB_TOKEN: "${{ secrets.APPROVE_PR_GITHUB_TOKEN }}"
+          GITHUB_TOKEN: "${{ github.token }}"
           MERGE_LABELS: "automerge"
           MERGE_RETRIES: "60"
           MERGE_RETRY_SLEEP: "10000"
@@ -56,15 +56,15 @@ jobs:
         run: echo "PR_NUMBER=$(jq --raw-output .issue.number "$GITHUB_EVENT_PATH")" >> $GITHUB_ENV
       - uses: hmarr/auto-approve-action@v4
         with:
-          github-token: "${{ secrets.APPROVE_PR_GITHUB_TOKEN }}"
+          github-token: "${{ github.token }}"
           pull-request-number: "${{ env.PR_NUMBER }}"
       - name: Add label
         run: gh pr edit ${{ env.PR_NUMBER }} --add-label automerge
         env:
-          GH_TOKEN: ${{ secrets.APPROVE_PR_GITHUB_TOKEN }}
+          GH_TOKEN: ${{ github.token }}
       - uses: pascalgn/automerge-action@v0.16.2
         env:
-          GITHUB_TOKEN: "${{ secrets.APPROVE_PR_GITHUB_TOKEN }}"
+          GITHUB_TOKEN: "${{ github.token }}"
           MERGE_LABELS: "automerge"
           MERGE_RETRIES: "60"
           MERGE_RETRY_SLEEP: "10000"
