@@ -5,7 +5,7 @@ WORKDIR /app
 
 COPY target/*.jar /app/
 EXPOSE 8080
-
+#des
 RUN printf "#!/bin/sh \n\
 exec /usr/local/openjdk-11/bin/java -jar %s\n" "$(ls /app/*.jar)"\
  > /app/entrypoint.sh \
