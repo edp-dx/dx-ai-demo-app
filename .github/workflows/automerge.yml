@@ -54,7 +54,7 @@ jobs:
         run: echo "PR_NUMBER=$(jq --raw-output .issue.number "$GITHUB_EVENT_PATH")" >> $GITHUB_ENV
       - uses: hmarr/auto-approve-action@v4
         with:
-          github-token: "${{ secrets.GITHUB_TOKEN }}"
+          github-token: "${{ github.token }}"
           pull-request-number: "${{ env.PR_NUMBER }}"
       - name: Add label
         run: gh pr edit ${{ env.PR_NUMBER }} --add-label automerge
