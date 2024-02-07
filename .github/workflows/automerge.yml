@@ -20,7 +20,7 @@ jobs:
           token: ${{ github.token }}
       - uses: hmarr/auto-approve-action@v4
         with:
-          github-token: ${{ github.token }}
+          github-token: ${{ secrets.APPROVE_PR_GITHUB_TOKEN }}
       - name: Add label
         run: gh pr edit ${{ github.event.pull_request.number }} --add-label automerge
         env:
