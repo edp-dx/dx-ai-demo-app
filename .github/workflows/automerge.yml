@@ -1,4 +1,4 @@
-ame: Auto approve
+name: Auto approve
 
 on: 
   pull_request_target:
