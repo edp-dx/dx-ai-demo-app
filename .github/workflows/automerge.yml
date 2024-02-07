@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          token: ${{ secrets.APPROVE_PR_GITHUB_TOKEN }}
+          token: ${{ github.token }}
       - uses: hmarr/auto-approve-action@v4
         with:
           github-token: "${{ secrets.APPROVE_PR_GITHUB_TOKEN }}"
@@ -41,7 +41,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          token: ${{ secrets.APPROVE_PR_GITHUB_TOKEN }}
+          token: ${{ github.token }}
       - name: Ensure jq is installed
         run: |
           if ! command -v jq &> /dev/null
