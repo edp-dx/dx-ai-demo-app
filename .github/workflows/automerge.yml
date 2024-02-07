@@ -13,7 +13,6 @@ jobs:
       pull-requests: write
       issues: write
       contents: read
-      repository-projects: write
     steps:
       - uses: actions/checkout@v4
         with:
@@ -41,7 +40,6 @@ jobs:
       pull-requests: write
       issues: write
       contents: read
-      repository-projects: write
     steps:
       - uses: actions/checkout@v4
         with:
