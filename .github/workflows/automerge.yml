@@ -17,17 +17,17 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          token: ${{ github.token }}
+          token: ${{ secrets.APPROVE_PR_GITHUB_TOKEN }}
       - uses: hmarr/auto-approve-action@v4
         with:
-          github-token: "${{ github.token }}"
+          github-token: "${{ secrets.APPROVE_PR_GITHUB_TOKEN }}"
       - name: Add label
         run: gh pr edit ${{ github.event.pull_request.number }} --add-label automerge
         env:
-          GH_TOKEN: ${{ github.token }}
+          GH_TOKEN: ${{ secrets.APPROVE_PR_GITHUB_TOKEN }}
       - uses: pascalgn/automerge-action@v0.16.2
         env:
-          GITHUB_TOKEN: "${{ github.token }}"
+          GITHUB_TOKEN: "${{ secrets.APPROVE_PR_GITHUB_TOKEN }}"
           MERGE_LABELS: "automerge"
           MERGE_RETRIES: "60"
           MERGE_RETRY_SLEEP: "10000"
@@ -45,7 +45,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          token: ${{ github.token }}
+          token: ${{ secrets.APPROVE_PR_GITHUB_TOKEN }}
       - name: Ensure jq is installed
         run: |
           if ! command -v jq &> /dev/null
@@ -56,15 +56,15 @@ jobs:
         run: echo "PR_NUMBER=$(jq --raw-output .issue.number "$GITHUB_EVENT_PATH")" >> $GITHUB_ENV
       - uses: hmarr/auto-approve-action@v4
         with:
-          github-token: "${{ github.token }}"
+          github-token: "${{ secrets.APPROVE_PR_GITHUB_TOKEN }}"
           pull-request-number: "${{ env.PR_NUMBER }}"
       - name: Add label
         run: gh pr edit ${{ env.PR_NUMBER }} --add-label automerge
         env:
-          GH_TOKEN: ${{ github.token }}
+          GH_TOKEN: ${{ secrets.APPROVE_PR_GITHUB_TOKEN }}
       - uses: pascalgn/automerge-action@v0.16.2
         env:
-          GITHUB_TOKEN: "${{ github.token }}"
+          GITHUB_TOKEN: "${{ secrets.APPROVE_PR_GITHUB_TOKEN }}"
           MERGE_LABELS: "automerge"
           MERGE_RETRIES: "60"
           MERGE_RETRY_SLEEP: "10000"
