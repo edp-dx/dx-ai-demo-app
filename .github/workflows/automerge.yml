@@ -29,36 +29,4 @@ jobs:
           MERGE_RETRY_SLEEP: "10000"
           MERGE_METHOD: "squash"
           MERGE_DELETE_BRANCH: "true"
-          
-  auto-approve-comment:
-    runs-on: ubuntu-latest
-    if: github.event_name == 'issue_comment' && github.event.issue.pull_request != '' && contains(github.event.comment.body, '/recheck')
-    permissions: write-all
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          token: ${{ github.token }}
-      - name: Ensure jq is installed
-        run: |
-          if ! command -v jq &> /dev/null
-          then
-            sudo apt-get update && sudo apt-get install -y jq
-          fi
-      - name: Get PR number
-        run: echo "PR_NUMBER=$(jq --raw-output .issue.number "$GITHUB_EVENT_PATH")" >> $GITHUB_ENV
-      - uses: hmarr/auto-approve-action@v4
-        with:
-          github-token: "${{ github.token }}"
-          pull-request-number: "${{ env.PR_NUMBER }}"
-      - name: Add label
-        run: gh pr edit ${{ env.PR_NUMBER }} --add-label automerge
-        env:
-          GH_TOKEN: ${{ github.token }}
-      - uses: pascalgn/automerge-action@v0.16.2
-        env:
-          GITHUB_TOKEN: "${{ github.token }}"
-          MERGE_LABELS: "automerge"
-          MERGE_RETRIES: "60"
-          MERGE_RETRY_SLEEP: "10000"
-          MERGE_METHOD: "squash"
-          MERGE_DELETE_BRANCH: "true"
+
