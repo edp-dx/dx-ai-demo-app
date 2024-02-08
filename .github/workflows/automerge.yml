@@ -14,6 +14,8 @@ jobs:
       issues: write
       contents: read
       repository-projects: write
+      checks: write
+      statuses: read
     steps:
       - uses: actions/checkout@v4
         with:
@@ -42,6 +44,8 @@ jobs:
       issues: write
       contents: read
       repository-projects: write
+      checks: write
+      statuses: read
     steps:
       - uses: actions/checkout@v4
         with:
