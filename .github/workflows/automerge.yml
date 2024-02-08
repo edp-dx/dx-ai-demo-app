@@ -9,13 +9,7 @@ jobs:
   auto-approve-pr:
     runs-on: ubuntu-latest
     if: github.event_name == 'pull_request_target'
-    permissions:
-      pull-requests: write
-      issues: write
-      contents: read
-      repository-projects: write
-      checks: write
-      statuses: read
+    permissions: write-all
     steps:
       - uses: actions/checkout@v4
         with:
@@ -39,13 +33,7 @@ jobs:
   auto-approve-comment:
     runs-on: ubuntu-latest
     if: github.event_name == 'issue_comment' && github.event.issue.pull_request != '' && contains(github.event.comment.body, '/recheck')
-    permissions:
-      pull-requests: write
-      issues: write
-      contents: read
-      repository-projects: write
-      checks: write
-      statuses: read
+    permissions: write-all
     steps:
       - uses: actions/checkout@v4
         with:
