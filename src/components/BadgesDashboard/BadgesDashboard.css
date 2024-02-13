@@ -1,0 +1,20 @@
+.badges-dashboard {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 1rem;
+}
+
+.badge-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+  .badges-dashboard {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  }
+}
