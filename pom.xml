@@ -35,6 +35,29 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+<!-- Spring Boot Web Dependency -->
+<!-- Spring Data JPA Dependency -->
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-data-jpa</artifactId>
+</dependency>
+<!-- H2 Database Dependency -->
+<dependency>
+    <groupId>com.h2database</groupId>
+    <artifactId>h2</artifactId>
+    <scope>runtime</scope>
+</dependency>
+<!-- JAXB API Dependency -->
+<dependency>
+    <groupId>javax.xml.bind</groupId>
+    <artifactId>jaxb-api</artifactId>
+</dependency>
+<!-- Org.javassist Dependency -->
+<dependency>
+    <groupId>org.javassist</groupId>
+    <artifactId>javassist</artifactId>
+    <version>3.23.1-GA</version>
+</dependency>
 
 	<build>
 		<plugins>
