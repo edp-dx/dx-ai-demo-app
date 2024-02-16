@@ -1,0 +1,5 @@
+INSERT INTO badges (badge_name, description, points_required, badge_image, create_date, update_date) VALUES ('Newcomer', 'Awarded for new members', 100, 'newcomer.png', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+INSERT INTO badges (badge_name, description, points_required, badge_image, create_date, update_date) VALUES ('Expert', 'Awarded for experts', 500, 'expert.png', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+INSERT INTO badges (badge_name, description, points_required, badge_image, create_date, update_date) VALUES ('Veteran', 'Awarded for long-time members', 1000, 'veteran.png', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+INSERT INTO badges (badge_name, description, points_required, badge_image, create_date, update_date) VALUES ('Contributor', 'Awarded for contributors', 300, 'contributor.png', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+INSERT INTO badges (badge_name, description, points_required, badge_image, create_date, update_date) VALUES ('Ambassador', 'Awarded for ambassadors', 800, 'ambassador.png', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
