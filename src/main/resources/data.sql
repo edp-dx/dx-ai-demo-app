@@ -1,0 +1,6 @@
+INSERT INTO BADGE (BADGE_ID, BADGE_NAME, DESCRIPTION, POINTS_REQUIRED, BADGE_IMAGE, CREATE_DATE, UPDATE_DATE) VALUES
+(1, 'Beginner', 'For beginners who are just getting started', 100, 'https://cdn1.iconfinder.com/data/icons/seo-and-marketing-icons-2/512/93-512.png', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+(2, 'Intermediate', 'For those who have some experience', 200, 'https://cdn1.iconfinder.com/data/icons/seo-and-marketing-icons-2/512/93-512.png', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+(3, 'Advanced', 'For the experts in the field', 300, 'https://cdn1.iconfinder.com/data/icons/seo-and-marketing-icons-2/512/93-512.png', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+(4, 'Professional', 'For the professionals with significant achievements', 400, 'https://cdn1.iconfinder.com/data/icons/seo-and-marketing-icons-2/512/93-512.png', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+(5, 'Expert', 'For the leading experts with top-notch skills', 500, 'https://cdn1.iconfinder.com/data/icons/seo-and-marketing-icons-2/512/93-512.png', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
