@@ -7,6 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.0] - 2023-04-DD
+
+### Added
+
+### Changed
+
+### Deprecated
+
+### Removed
+
+### Fixed
+
+### Security
+
 ### Added
 - Entity class `Badge` with attributes, annotations, and getters/setters.
 - Dependencies for Spring Boot Web, JPA, H2 database, jaxb-api, and org.javassist in `pom.xml`.
