@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [0.2.0] - 2023-04-DD
 
+### Changed
+- Incremented MINOR version in pom.xml.
+
 ### Added
 
 ### Changed
@@ -21,6 +24,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Security
 
+### Changed
+- Incremented MINOR version in pom.xml.
+
 ### Added
 - Entity class `Badge` with attributes, annotations, and getters/setters.
 - Dependencies for Spring Boot Web, JPA, H2 database, jaxb-api, and org.javassist in `pom.xml`.
@@ -32,6 +38,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `@CrossOrigin` annotation to the controller class.
 
 ## [0.1.0] - 2023-04-DD
+
+### Changed
+- Incremented MINOR version in pom.xml.
 
 ### Added
 - Incremented MINOR version in pom.xml to 0.1.0-SNAPSHOT.
