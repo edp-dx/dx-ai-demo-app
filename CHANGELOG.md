@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- New entity class `Badge` with necessary JPA annotations, attributes, and corresponding getters and setters.
+- New repository interface `BadgeRepository` that extends JpaRepository for the Badge entity.
+- New service class `BadgeService` that uses the `BadgeRepository` to fetch all badges from the database.
+- New REST controller class `BadgeController` with a GET endpoint at '/badges' that fetches all badges using the `BadgeService`.
+- Configuration for the H2 in-memory database in `application.properties`.
+- Hardcoded data for five badges in `data.sql`.
+
+### Updated
+- `pom.xml` to include dependencies for Spring Boot Web, JPA, H2 database, jaxb-api, and org.javassist with version '3.23.1-GA'.
+
 ## [0.2.0] - 2023-04-DD
 
 ### Changed
