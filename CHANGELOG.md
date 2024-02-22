@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.0.2] - 2023-XX-XX
+
+- Your list of git commits would go here.
+
 ## [Unreleased]
 
 - Created Badge entity class with attributes and JPA annotations.
