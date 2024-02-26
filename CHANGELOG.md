@@ -1,6 +1,10 @@
 # Changelog
 
 ## [Unreleased]
+
+## [0.2.0] - YYYY-MM-DD
+### Added
+- Placeholder for git commits
 ### Added
 - Added new entity class `Badge`.
 - Updated `pom.xml` with dependencies for Spring Boot Web, JPA, H2 database, JAXB API, and org.javassist.
