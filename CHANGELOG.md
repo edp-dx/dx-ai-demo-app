@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+## [0.3.0] - YYYY-MM-DD
+### Added
+- Placeholder for git commits
+
 ## [0.2.0] - YYYY-MM-DD
 ### Added
 - Placeholder for git commits
