@@ -2,6 +2,12 @@
 
 ## [Unreleased]
 
+## [0.3.0] - 2023-XX-XX
+
+- Incremented minor version in pom.xml.
+
+<INSERT COMMIT MESSAGES HERE>
+
 ## [0.2.0] - 2023-XX-XX
 
 - Incremented minor version in pom.xml.
