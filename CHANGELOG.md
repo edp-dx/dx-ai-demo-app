@@ -6,13 +6,25 @@
 
 - Incremented minor version in pom.xml.
 
-<INSERT COMMIT MESSAGES HERE>
+- Created Badge entity with JPA annotations and getter/setter methods.
+- Updated pom.xml with dependencies for Spring Boot Web, JPA, H2 database, jaxb-api, and org.javassist.
+- Configured H2 database in application.properties.
+- Added data.sql with hardcoded Badge data.
+- Created BadgeRepository interface extending JpaRepository.
+- Created BadgeService class to fetch all badges from the database.
+- Created BadgeController with GET endpoint to fetch all badges and added @CrossOrigin annotation.
 
 ## [0.2.0] - 2023-XX-XX
 
 - Incremented minor version in pom.xml.
 
-<INSERT COMMIT MESSAGES HERE>
+- Created Badge entity with JPA annotations and getter/setter methods.
+- Updated pom.xml with dependencies for Spring Boot Web, JPA, H2 database, jaxb-api, and org.javassist.
+- Configured H2 database in application.properties.
+- Added data.sql with hardcoded Badge data.
+- Created BadgeRepository interface extending JpaRepository.
+- Created BadgeService class to fetch all badges from the database.
+- Created BadgeController with GET endpoint to fetch all badges and added @CrossOrigin annotation.
 
 ## [0.1.0] - 2023-XX-XX
 
