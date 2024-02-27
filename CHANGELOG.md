@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+## [0.5.0] - 2023-04-06
+
+- Incremented minor version in pom.xml.
+- Git commits will be listed here
+
 ## [0.4.0] - 2023-XX-XX
 
 - Incremented minor version in pom.xml.
