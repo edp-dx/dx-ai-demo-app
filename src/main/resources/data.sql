@@ -1,0 +1,6 @@
+INSERT INTO badge (badge_id, badge_name, description, points_required, badge_image, create_date, update_date) VALUES
+  (1, 'Beginner', 'First badge for beginners', 100, 'https://cdn1.iconfinder.com/data/icons/seo-and-marketing-icons-2/512/93-512.png', '2023-01-01T00:00:00', '2023-01-01T00:00:00'),
+  (2, 'Intermediate', 'Badge for reaching the intermediate level', 200, 'https://cdn1.iconfinder.com/data/icons/seo-and-marketing-icons-2/512/93-512.png', '2023-01-01T00:00:00', '2023-01-01T00:00:00'),
+  (3, 'Advanced', 'Badge for reaching the advanced level', 300, 'https://cdn1.iconfinder.com/data/icons/seo-and-marketing-icons-2/512/93-512.png', '2023-01-01T00:00:00', '2023-01-01T00:00:00'),
+  (4, 'Expert', 'Badge for reaching the expert level', 400, 'https://cdn1.iconfinder.com/data/icons/seo-and-marketing-icons-2/512/93-512.png', '2023-01-01T00:00:00', '2023-01-01T00:00:00'),
+  (5, 'Master', 'Badge for reaching the master level', 500, 'https://cdn1.iconfinder.com/data/icons/seo-and-marketing-icons-2/512/93-512.png', '2023-01-01T00:00:00', '2023-01-01T00:00:00');
