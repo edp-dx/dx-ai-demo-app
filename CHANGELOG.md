@@ -2,6 +2,9 @@
 
 ## [Unreleased]
 
+## [0.7.0] - 2023-XX-XX
+
+- Incremented minor version in pom.xml from 0.6.0-SNAPSHOT to 0.7.0-SNAPSHOT.
 - Git commits will be listed here
 
 ## [0.6.0] - 2023-XX-XX
