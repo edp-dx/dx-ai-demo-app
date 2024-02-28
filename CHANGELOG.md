@@ -4,6 +4,11 @@
 
 - Git commits will be listed here
 
+## [0.9.0] - 2023-04-DD
+
+- Incremented minor version in pom.xml from 0.8.0-SNAPSHOT to 0.9.0-SNAPSHOT.
+- New git branch 'c5d753b1-6724-45eb-acae-c8921844e4fe' created for the changes.
+
 ## [0.8.0] - 2023-04-04
 
 - Incremented minor version in pom.xml from 0.7.0-SNAPSHOT to 0.8.0-SNAPSHOT.
