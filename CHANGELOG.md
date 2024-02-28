@@ -2,8 +2,12 @@
 
 ## [Unreleased]
 
-- Created 'AppController.java' to serve as the application UI entry point for 'BadgesDashboard'.
-- New git branch '948629ee-6718-42a7-bcc0-ef4307e13c0b' created for the changes.
+- Git commits will be listed here
+
+## [0.8.0] - 2023-04-04
+
+- Incremented minor version in pom.xml from 0.7.0-SNAPSHOT to 0.8.0-SNAPSHOT.
+- New git branch 'c5d753b1-6724-45eb-acae-c8921844e4fe' created for the changes.
 
 ## [0.7.0] - 2023-XX-XX
 
