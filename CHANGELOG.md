@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+## [0.10.0] - 2023-04-DD
+
+- Incremented minor version in pom.xml from 0.9.0-SNAPSHOT to 0.10.0-SNAPSHOT.
+- New git branch 'c5d753b1-6724-45eb-acae-c8921844e4fe' created for the changes.
+
 - Git commits will be listed here
 
 ## [0.9.0] - 2023-04-DD
@@ -17,21 +22,41 @@
 ## [0.7.0] - 2023-XX-XX
 
 - Incremented minor version in pom.xml from 0.6.0-SNAPSHOT to 0.7.0-SNAPSHOT.
+## [0.10.0] - 2023-04-DD
+
+- Incremented minor version in pom.xml from 0.9.0-SNAPSHOT to 0.10.0-SNAPSHOT.
+- New git branch 'c5d753b1-6724-45eb-acae-c8921844e4fe' created for the changes.
+
 - Git commits will be listed here
 
 ## [0.6.0] - 2023-XX-XX
 
 - Incremented minor version in pom.xml from 0.5.0-SNAPSHOT to 0.6.0-SNAPSHOT.
+## [0.10.0] - 2023-04-DD
+
+- Incremented minor version in pom.xml from 0.9.0-SNAPSHOT to 0.10.0-SNAPSHOT.
+- New git branch 'c5d753b1-6724-45eb-acae-c8921844e4fe' created for the changes.
+
 - Git commits will be listed here
 
 ## [0.5.0] - 2023-XX-XX
 
 - Incremented minor version in pom.xml from 0.4.0-SNAPSHOT to 0.5.0-SNAPSHOT.
+## [0.10.0] - 2023-04-DD
+
+- Incremented minor version in pom.xml from 0.9.0-SNAPSHOT to 0.10.0-SNAPSHOT.
+- New git branch 'c5d753b1-6724-45eb-acae-c8921844e4fe' created for the changes.
+
 - Git commits will be listed here
 
 ## [0.4.0] - 2023-XX-XX
 
 - Incremented minor version in pom.xml.
+## [0.10.0] - 2023-04-DD
+
+- Incremented minor version in pom.xml from 0.9.0-SNAPSHOT to 0.10.0-SNAPSHOT.
+- New git branch 'c5d753b1-6724-45eb-acae-c8921844e4fe' created for the changes.
+
 - Git commits will be listed here
 
 ## [0.3.0] - 2023-XX-XX
