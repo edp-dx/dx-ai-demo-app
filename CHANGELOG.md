@@ -2,6 +2,13 @@
 
 ## [Unreleased]
 
+## [0.14.0-SNAPSHOT] - 2023-04-DD
+
+- Incremented minor version in pom.xml from 0.13.0-SNAPSHOT to 0.14.0-SNAPSHOT.
+- New git branch '24dc75db-a8cb-4681-9fd4-ef5fcb37b40e' created for the changes.
+
+- Git commits will be listed here
+
 ## [0.13.0] - 2023-04-DD
 
 - Incremented minor version in pom.xml from 0.12.0-SNAPSHOT to 0.13.0-SNAPSHOT.
